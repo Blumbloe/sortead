@@ -1,3 +1,16 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+     --primary-font: "Inter", sans-serif;
+     --secondary-font: "Montserrat", cursive;
+     --Olive: #606c38;
+     --Forest: #283618;
+     --cornsilk: #fefae0;
+     --Clay: #DDA15E;
+     --Copper: #BC6C25;
+} 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,17 +20,40 @@
 body {
     min-height: 100vh;
     display: flex;
-    font-size: 3rem;
-    background-color: aqua;
-    color: black;
+    font-size: 2rem;
+    background-color: var(--cornsilk);
+    color: var(--Olive);
     flex-flow: column;
 }
 
+
+
 nav {
+    display: flex;
+    justify-content: space-between;
     padding: 1rem;
-    background-color: aquamarine;
-    color: aliceblue;
+    background-color: var(--Olive);
+    font-family: var(--secondary-font);
+    color: var(--cornsilk);
     font-size: 2.5rem;
+    align-items: center;
+}
+
+nav  a {
+  color: var(--cornsilk);
+}
+
+a:hover {
+    opacity: .85;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Copper);
+}
+
+#title {
+    font-size: 3rem;
 }
 
 main {
@@ -26,15 +62,46 @@ main {
     place-content: center;
 }
 
-h1, p {
+/* Buttons */
+.custom-button-outline {
+  border: 2px solid var(--Forest);
+  background-color: var(--Olive);
+  color: var(--cornsilk); 
+}
+.custom-button-outline:hover{
+    color: var(--cornsilk); 
+    background-color: var(--Forest); 
+}
+
+.btn > a {
+    color: var(--cornsilk);
+}
+
+
+
+h1, h2, p {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+h1, h2 {
+    font-family:  var(--secondary-font);
+    font-size: 3rem;
 }
 
-a:hover {
-    opacity: .85;
+p {
+    font-size: 2rem;
 }
+
+p {
+    font-family: var(--primary-font);
+}
+
+.bg {
+     background: url(../images/img.jpg) no-repeat;
+     opacity: .75;
+     background-size:cover;
+}
+
+
+
+

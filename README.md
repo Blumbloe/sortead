@@ -31,8 +31,8 @@ The site provides the ability to book a table, along with the ability to read ab
 
 I have employed the use of the projects function on my repository to keep track of the user stories so that the user stories are recorded along with the task and acceptance criteria required to meet the goal.
 
-![Project card from github](/documentation/user-story-1.png)
+![Project card from github](/sorteadproject/static/documentation/user-story-1.png)
 
 Additionally, each goal has been put in order of importance. There are must haves, should haves and could haves. This enables me to discern which targets I need to work on first so that I can meet the minimum functionality of the site.
 
-![Project Board from github](/documentation/project-board.png)
+![Project Board from github](/sorteadproject//static/documentation/project-board.png)
