@@ -26,34 +26,56 @@ body {
     flex-flow: column;
 }
 
-
+.section{
+padding-top: 40px;
+padding-bottom: 40px;
+}
 
 nav {
+    /**
     display: flex;
     justify-content: space-between;
+    **/
     padding: 1rem;
     background-color: var(--Olive);
     font-family: var(--secondary-font);
     color: var(--cornsilk);
-    font-size: 2.5rem;
+   
     align-items: center;
 }
 
-nav  a {
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+nav  a, nav i {
   color: var(--cornsilk);
+}
+
+
+
+nav a:hover {
+    opacity: .85;
+    color: var(--cornsilk);
 }
 
 a:hover {
     opacity: .85;
+    color: var(--Copper);
 }
 
 a {
     text-decoration: none;
     color: var(--Copper);
 }
-
+/**
 #title {
     font-size: 3rem;
+}
+**/
+#menu > div {
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -88,6 +110,10 @@ h1, h2 {
     font-size: 3rem;
 }
 
+div > h1, div > h1 + p {
+    color: var(--cornsilk);
+}
+
 p {
     font-size: 2rem;
 }
@@ -100,8 +126,41 @@ p {
      background: url(../images/img.jpg) no-repeat;
      opacity: .75;
      background-size:cover;
+     min-height: 500px;
 }
 
+/* Contact form section */
+#contact-form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+/* Footer / socials */
+#contact {
+    background-color: var(--Forest); 
+    color: var(--cornsilk); 
+}
+
+#contact h2{
+font-family: var(--secondary-font);
+}
+#contact .social-links i{
+    color: var(--cornsilk); 
+    font-size: 2rem;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+#contact .social-links i:hover{
+    color: var(--amethyst); 
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+#contact .social-links i span {
+    font-size: 1rem;
+    margin-right: 15px;
+    font-family: var(--primary-font);
+}
 
 
