@@ -36,3 +36,37 @@ I have employed the use of the projects function on my repository to keep track 
 Additionally, each goal has been put in order of importance. There are must haves, should haves and could haves. This enables me to discern which targets I need to work on first so that I can meet the minimum functionality of the site.
 
 ![Project Board from github](/sorteadproject//static/documentation/project-board.png)
+
+## 2. Design
+### 2.1 Colour Scheme
+For my colour palette I used [coolors.co](https://coolors.co/) to create the colour palette that matches my vision for the site. I wanted to keep it mostly neutral while having the important elements such as the buttons stand out.
+
+![Colour palette with hex colour codes and colour names](/sorteadproject/static/documentation/colour-pallete.png)
+
+### 2.2 Typography
+[Google fonts](https://fonts.google.com/) was used to apply the fonts of:
+
+Montserrat - Which is used for the titles.
+
+![Image of Montserrat font with text: Montserrat](/sorteadproject/static/documentation/montserrat-font.png)
+
+Inter - which is used for large bodies of text such as the about section.
+
+![Image of Inter font with text: Inter](/sorteadproject/static/documentation/inter-font.png)
+
+I used [Font Awesome](https://fontawesome.com/) for the icons that shows the gesture for each hand.
+
+### 2.3 Wireframes
+I used Frame0 to create my wireframe so that I can visualise the layout of my website. Versions of the site were created for mobile and desktop.
+
+[HomePage Wireframe (Desktop)](/sorteadproject/static/documentation/homepage-wireframe-pc.png)
+
+[HomePage Wireframe (Mobile)](/sorteadproject/static/documentation/homepage-wireframe-mobile.png)
+
+[Booking Page Wireframe (Desktop)](/sorteadproject/static/documentation/booking-page-wireframe-pc.png)
+
+[Booking Page Wireframe (Mobile)](/sorteadproject/static/documentation/booking-page-wireframe-mobile.png)
+
+[Review Page Wireframe (Desktop)](/sorteadproject/static/documentation/review-wireframe-pc.png)
+
+[Review Page Wireframe (Mobile)](/sorteadproject/static/documentation/review-wireframe-mobile.png)
