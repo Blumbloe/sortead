@@ -70,3 +70,14 @@ I used Frame0 to create my wireframe so that I can visualise the layout of my we
 [Review Page Wireframe (Desktop)](/sorteadproject/static/documentation/review-wireframe-pc.png)
 
 [Review Page Wireframe (Mobile)](/sorteadproject/static/documentation/review-wireframe-mobile.png)
+
+### 3. Features
+
+This website contains multiple pages: The homepage which consists of the about us section and the menu; Theres the booking page which allows the user to book a reservation for the restaurant and theres the login and sign-up pages which allow the user to create and log into an account.
+
+I have used Django framework aswell as bootstrap V5.3 throughout the website to assist in styling the site.
+
+### 3.1 General Features
+#### Home Page
+
+The Home page holds the most relevant information of the resatuarant, It has been styled so that the information is easy to digest and readable on any screen.
