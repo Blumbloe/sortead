@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'booking',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +56,7 @@ ROOT_URLCONF = 'sorteadproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['sorteadproject/templates'],
+        'DIRS': ['sorteadproject/templates', 'booking/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

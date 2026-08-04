@@ -1,0 +1,26 @@
+{% extends 'layout.html'%}
+
+{% load static %}
+
+{% block title%}
+    Booking
+{% endblock %}
+
+{% block content %}
+<h2>Book a Table</h2>
+ <p>To make a table booking for your group, please fill out the table reservations form below. </p>
+
+{% if messages %}
+  <ul>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<form action="{% url 'home' %}" method='post'>
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Reserve Table</button>
+</form>
+{% endblock %}
