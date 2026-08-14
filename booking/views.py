@@ -23,7 +23,7 @@ def new_booking(request):
             return redirect('book_table')
     else:    
         form = forms.CreatePost()
-    return render(request, 'bookings/book_table.html', { 'form': form})
+    return render(request, 'bookings/book_table.html', {'form': form})
 
 
 
