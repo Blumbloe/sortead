@@ -78,6 +78,25 @@ This website contains multiple pages: The homepage which consists of the about u
 I have used Django framework aswell as bootstrap V5.3 throughout the website to assist in styling the site.
 
 ### 3.1 General Features
+
+#### Site Navbar
+
+The first bit of content you will see on the website showcasing the title of the site aswell as the key aspects of it.
+
+![Image of the sites navbar](/sorteadproject/static/documentation/site-navbar.png)
+
+For smaller devices the list of links to other parts of the website are replaced with a dropdown, using a burger icon to reveal it.
+
+![Image of the sites navbar dropdown](/sorteadproject/static/documentation/site-navbar-dropdown.png)
+
+The navbar also changes when a user logs in, switching out the sign-up and login links for a logout link.
+
 #### Home Page
 
 The Home page holds the most relevant information of the resatuarant, It has been styled so that the information is easy to digest and readable on any screen.
+
+
+![Image of the homepage on PC](/sorteadproject/static/documentation/homepage-pc.png)
+
+![Image of the homepage mobile](/sorteadproject/static/documentation/homepage-mobile.png)
+

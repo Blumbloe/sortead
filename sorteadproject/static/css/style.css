@@ -100,7 +100,7 @@ main {
     color: var(--cornsilk);
 }
 
-form > button {
+#Reserve-button {
     margin-bottom: 30px;
 }
 
@@ -110,7 +110,7 @@ h1, h2, p {
 
 h1, h2 {
     font-family:  var(--secondary-font);
-    font-size: 3rem;
+    font-size: 5vw;
 }
 
 div > h1, div > h1 + p {
@@ -118,10 +118,7 @@ div > h1, div > h1 + p {
 }
 
 p {
-    font-size: 2rem;
-}
-
-p {
+    font-size: 2.4vw;
     font-family: var(--primary-font);
 }
 
@@ -166,18 +163,23 @@ font-family: var(--secondary-font);
     font-family: var(--primary-font);
 }
 
+ul > li, li > form > button {
+    font-size: 2.2vw;
+}
+    
 
 main > h2 {
     margin-top: 20px;
 }
-
+/* Form */
 form {
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: flex-end;
-
+font-size: 2.2vw;
 }
+
 
 form > div {
     margin-top: 20px;
@@ -186,4 +188,29 @@ form > div {
 label {
     vertical-align: top;
 }
-    
+
+/* Media Queries */
+@media only screen and (min-width: 992px) {
+    p {
+     font-size: 23px;
+  }
+  h1, h2 {
+    font-size: 47px;
+  }
+
+
+}
+@media screen and (min-width: 1200px) {
+  p {
+     font-size: 30px;
+  }
+  h1, h2 {
+    font-size: 55px;
+  }
+  ul > li, li > form > button{
+    font-size: 33px;
+}
+form {
+    font-size: 33px;
+}
+}
