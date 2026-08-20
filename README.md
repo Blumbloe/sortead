@@ -91,12 +91,43 @@ For smaller devices the list of links to other parts of the website are replaced
 
 The navbar also changes when a user logs in, switching out the sign-up and login links for a logout link.
 
+![Image of the sites navbar when user is logged in](/sorteadproject/static/documentation/site-navbar-logout.png)
+
+#### Footer
+
+At the bottom of each page contains the footer which has links to different social medias headed by text
+saying to "check out our socials!".
+
+![Image of the sites footer](/sorteadproject/static/documentation/site-footer.png)
+
 #### Home Page
 
-The Home page holds the most relevant information of the resatuarant, It has been styled so that the information is easy to digest and readable on any screen.
-
+The home page holds the most relevant information of the resatuarant, It has been styled so that the information is easy to digest
+and readable on any screen.
 
 ![Image of the homepage on PC](/sorteadproject/static/documentation/homepage-pc.png)
 
 ![Image of the homepage mobile](/sorteadproject/static/documentation/homepage-mobile.png)
+
+#### Menu
+
+The home page also contains the menu for the user to help decide what they would like to eat beforehand, giving them a
+smoother experience in the restaurant.
+
+![Image of the menu](/sorteadproject/static/documentation/site-menu.png)
+
+#### User Registration Form
+
+The site contains a form allowing users to register themselves with a username and password also allowing them to create a booking.
+
+![Image of the registration form](/sorteadproject/static/documentation/user-register-form.png)
+
+#### User Login
+
+Once the user has reigstered themselves and logout they can then log back in using their information.
+
+![Image of the User login](/sorteadproject/static/documentation/user-login.png)
+
+
+
 

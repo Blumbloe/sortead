@@ -37,7 +37,7 @@ class Booking(models.Model):
     date = models.DateField(null=True)
     time = models.IntegerField(null=True,choices=TIME_CHOICES)
     number_of_guests = models.PositiveIntegerField(default=1,
-                                                   validators=[
+                                                    validators=[
                                                        MinValueValidator(1),      
                                                        MaxValueValidator(24)])
     status = models.CharField(
