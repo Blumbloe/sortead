@@ -23,6 +23,5 @@ urlpatterns = [
     path('', views.homepage),
     path('booking/', include('booking.urls')),
     path('users/', include('users.urls')),
-
      
 ]

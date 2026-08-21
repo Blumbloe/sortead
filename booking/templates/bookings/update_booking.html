@@ -1,0 +1,15 @@
+{% extends 'layout.html'%}
+
+{% load static %}
+
+{% block title%}
+    Booking List
+{% endblock %}
+
+{% block content %}
+<form method="POST" action="{% url 'update_booking' booking.id %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Update Booking</button>
+</form>
+{% endblock %}

@@ -18,10 +18,11 @@
   </ul>
 {% endif %}
 
-<form id="reserve-form" action="{% url 'new booking' %}" method='post'>
+<form id="reserve-form" action="{% url 'new_booking' %}" method='post'>
   {% csrf_token %}
   {{ form.as_div }}
   {{request.user.id}}
   <button id="Reserve-button" type="submit" class="btn custom-button-outline d-block mx-auto">Reserve Table</button>
 </form>
+<button class="btn custom-button-outline d-block mx-auto"> <a href="{% url 'view_bookings' %}"> Update</a> </button>
 {% endblock %}
