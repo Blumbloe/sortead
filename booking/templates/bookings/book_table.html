@@ -18,11 +18,11 @@
   </ul>
 {% endif %}
 
-<form id="reserve-form" action="{% url 'new_booking' %}" method='post'>
+<form class="reserve-forms" action="{% url 'new_booking' %}" method='post'>
   {% csrf_token %}
   {{ form.as_div }}
-  {{request.user.id}}
-  <button id="Reserve-button" type="submit" class="btn custom-button-outline d-block mx-auto">Reserve Table</button>
+  <button  type="submit" class="btn custom-button-outline d-block mx-auto Reserve-buttons">Reserve Table</button>
 </form>
-<button class="btn custom-button-outline d-block mx-auto"> <a href="{% url 'view_bookings' %}"> Update</a> </button>
+<p> If you would like to update or delete your booking please click the button below. </p>
+<button class="btn custom-button-outline d-block mx-auto Reserve-buttons" > <a href="{% url 'view_bookings' %}"> Update</a> </button>
 {% endblock %}

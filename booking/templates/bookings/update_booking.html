@@ -7,9 +7,9 @@
 {% endblock %}
 
 {% block content %}
-<form method="POST" action="{% url 'update_booking' booking.id %}">
+<form class="reserve-forms" method="POST" action="{% url 'update_booking' booking.id %}">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Update Booking</button>
+    {{ form.as_div }}
+    <button  type="submit" class="btn custom-button-outline d-block mx-auto Reserve-buttons">Update Booking</button>
 </form>
 {% endblock %}

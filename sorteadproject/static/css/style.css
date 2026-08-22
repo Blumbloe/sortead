@@ -64,14 +64,9 @@ a {
     color: var(--Copper);
 }
 
-.logout-button {
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+p {
+    font-size: 2.4vw;
+    font-family: var(--primary-font);
 }
 
 #menu > div {
@@ -85,23 +80,8 @@ main {
     place-content: center;
 }
 
-/* Buttons */
-.custom-button-outline {
-  border: 2px solid var(--Forest);
-  background-color: var(--Olive);
-  color: var(--cornsilk); 
-}
-.custom-button-outline:hover{
-    color: var(--cornsilk); 
-    background-color: var(--Forest); 
-}
-
-.btn > a {
-    color: var(--cornsilk);
-}
-
-#Reserve-button {
-    margin-bottom: 30px;
+main > h2 {
+    margin-top: 20px;
 }
 
 h1, h2, p {
@@ -117,16 +97,41 @@ div > h1, div > h1 + p {
     color: var(--cornsilk);
 }
 
-p {
-    font-size: 2.4vw;
-    font-family: var(--primary-font);
-}
-
 .bg {
      background: url(../images/img.jpg) no-repeat;
      opacity: .75;
      background-size:cover;
      min-height: 500px;
+}
+
+/* Buttons */
+
+.logout-button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.custom-button-outline {
+  border: 2px solid var(--Forest);
+  background-color: var(--Olive);
+  color: var(--cornsilk); 
+}
+.custom-button-outline:hover{
+    color: var(--cornsilk); 
+    background-color: var(--Forest); 
+}
+
+.btn > a {
+    color: var(--cornsilk);
+}
+
+.Reserve-buttons {
+    margin-bottom: 15px;
 }
 
 /* Contact form section */
@@ -167,10 +172,6 @@ ul > li, li > form > button {
     font-size: 2.2vw;
 }
     
-
-main > h2 {
-    margin-top: 20px;
-}
 /* Form */
 form {
 flex-direction: column;
@@ -179,22 +180,41 @@ justify-content: flex-end;
 font-size: 2.2vw;
 }
 
-#reserve-form {   
+.reserve-forms {   
 display: flex;
 }
-
 
 form > div {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+form + p {
+    margin-bottom: 20px;
+}
+
 label {
     vertical-align: top;
 }
 
+table {
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+font-size: 2.2vw;
+}
+
+th {
+    color: var(--Olive);
+}
+
+tr, td {
+    color: var(--Olive);
+}
+
 /* Media Queries */
 @media only screen and (min-width: 768px) {
-    form {
+    form, table {
         margin-bottom: 20px;
     }
     main > h1 {
@@ -222,7 +242,7 @@ label {
   ul > li, li > form > button{
     font-size: 33px;
 }
-form {
+form, table{
     font-size: 33px;
 }
 }

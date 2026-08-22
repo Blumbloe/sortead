@@ -13,7 +13,7 @@
   </h2>
 
 <div class="text-center mb-3">
-    <a href="/booking" class="btn btn-accent">Book Now</a>
+  <button class="btn custom-button-outline d-block mx-auto"> <a href="/booking">Book Now</a> </button>
   </div>
 
 
@@ -40,7 +40,7 @@
               <td>{{ booking.status }}</td>
               <td>
                 <a href="{% url 'update_booking' booking_id=booking.id %}" class="btn btn-warning btn-sm">Edit</a>
-                <a href="{% url 'delete_booking' booking_id=booking.id %}" class="btn btn-warning btn-sm">Delete</a>
+                <a href="{% url 'delete_booking' booking_id=booking.id %}" class="btn btn-danger btn-sm">Delete</a>
               </td>
             </tr>
           {% endfor %}
@@ -51,7 +51,7 @@
     <div class="text-center py-5">
       <h3 class="mb-3">You do not have any bookings yet</h3>
       <p class="mb-4">Ready to reserve a table?</p>
-      <a href="/booking" class="btn btn-accent btn-lg">Create booking</a>
+      <button class="btn custom-button-outline d-block mx-auto">  <a href="/booking">Create booking</a> </button>
     </div>
   {% endif %}
 </div>

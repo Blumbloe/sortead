@@ -22,7 +22,7 @@ def new_booking(request):
             newbooking.user = request.user
             newbooking.save()
             messages.success(request, "Booking successfully created")
-            return redirect('new booking')
+            return redirect('new_booking')
     else:    
         form = CreateBooking()
     return render(request, 'bookings/book_table.html', {'form': form})
