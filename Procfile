@@ -1,1 +1,1 @@
-web: gunicorn sortead.wsgi
+web: gunicorn sorteadproject.wsgi
