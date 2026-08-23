@@ -128,6 +128,56 @@ Once the user has reigstered themselves and logout they can then log back in usi
 
 ![Image of the User login](/sorteadproject/static/documentation/user-login.png)
 
+#### Booking Page
+
+This page is dedicated to allowing a registered user to reserve themselves a table on a day and time of their choosing
+aswell as letting them choose the number of guests (up to 24) and if they have any special requests.
+
+![Image of the booking page](/sorteadproject/static/documentation/booking-form.png)
+
+when the form is filled out and the user clicks the reserve table button, a notification will appear letting 
+them know their booking has been accepted.
+
+![Image of the booking notification](/sorteadproject/static/documentation/booking-created.png)
+
+#### Booking Listing Page
+
+below the form is a button that sends the user to a page containing a listing of their bookings where they can choose to edit or delete said bookings.
+
+![Image of the booking listing page](/sorteadproject/static/documentation/booking-listings.png)
+
+#### Update Booking Page
+
+On each listing contains an edit button which takes the user to a seperate page that allows them to change the details of their booking.
+
+![Image of the update booking page](/sorteadproject/static/documentation/update-booking.png)
+
+And if we change the number of guests to 14 then the site updates the listing to show the appropriate number.
+
+![Image of the booking listing update ](/sorteadproject/static/documentation/update-booking-change.png)
+
+#### Delete Booking Page
+
+On each listing also contains a delete button which takes the user to a seperate pages that gives them the choice
+to either delete the listing or cancel.
+
+![Image of the delete booking page ](/sorteadproject/static/documentation/delete-booking.png)
+
+And on deletion the user is taken back to the listings page that has now removed the listing.
+
+![Image of the deleted booking ](/sorteadproject/static/documentation/deleted-booking.png)
+
+### 3.2 Future Implementations
+
+I was able to meet most of my user goals within the time frame of this project. I was unable to add the reviews
+section but this is because during development i found it unnecessary
 
 
+In future implementations of this project I would like to make the time slots relate to the tables so that 
+if a user books a table at a certain date and time no one else can book it.
 
+### 3.3 Accessibility
+
+Whilst in the process of designing and styling the website, I kept in mind the need to make the page as user friendly and accessible as possible. I have achived this by:
+- I used Sans serif font as an alternate font for if my primary font fails to load. 
+- I applied the hover function to all of my buttons and used custom styling to ensure the user can tell it is a button.

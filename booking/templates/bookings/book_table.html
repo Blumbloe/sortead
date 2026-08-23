@@ -8,12 +8,14 @@
 
 {% block content %}
 <h2>Book a Table</h2>
- <p>To make a table booking for your group, please fill out the table reservations form below. </p>
+ <p>To make a table booking for your group, please fill out the table reservations form below
+  (registered users only).
+ </p>
 
 {% if messages %}
-  <ul>
+  <ul style="list-style-type: none;">
     {% for message in messages %}
-      <li>{{ message }}</li>
+      <li style="text-align: center;">{{ message }}</li>
     {% endfor %}
   </ul>
 {% endif %}
