@@ -181,3 +181,21 @@ if a user books a table at a certain date and time no one else can book it.
 Whilst in the process of designing and styling the website, I kept in mind the need to make the page as user friendly and accessible as possible. I have achived this by:
 - I used Sans serif font as an alternate font for if my primary font fails to load. 
 - I applied the hover function to all of my buttons and used custom styling to ensure the user can tell it is a button.
+
+## 4. Technologies Used
+### 4.1 Languages Used
+- HTML
+- CSS
+- Django
+
+### 4.2 Frameworks, Sites and Programs Used
+- Frame0 - to create the wireframes of the site
+- Git - For version control
+- Heroku - For deployment of the site
+- Github - Used as a project manager and save file
+- Bootstrap version 5.3 - Code to help style the website
+- Google Fonts - Used for font implementation
+- Font Awesome - Used for icon implementation
+- Chrome dev tools - To test the responsiveness of the site in both desktop and mobile
+- Coolors - For colour pallete generation
+- GeeksforGeeks - For helping with Crud functionallity on my models.
