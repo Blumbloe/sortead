@@ -4,7 +4,7 @@ Sortead is designed to deliver an informative and practical experience allowing 
 
 The site is aimed to target people who are interested in the restaurant and those who want to make a reservation.
 
-[The site can be viewed here.](https://blumbloe.github.io/sortead/)
+[The site can be viewed here.](https://sortead-7559c99c8714.herokuapp.com/)
 
 ## 1. User Experience
 The website is created on the behalf of the service provider. The aim is to allow the user to book a reservation for their party on a specific time and date.
@@ -199,3 +199,22 @@ Whilst in the process of designing and styling the website, I kept in mind the n
 - Chrome dev tools - To test the responsiveness of the site in both desktop and mobile
 - Coolors - For colour pallete generation
 - GeeksforGeeks - For helping with Crud functionallity on my models.
+
+## 5. Deployment
+
+1. Sortead was deployed to Heroku via the following steps:
+
+2. Navigate to the app on Heroku and click on deploy.
+
+3. in the deployment method section enable github integration by clicking on connect to GitHub.
+
+4. Type your project repo name into the search bar and click Search. 
+Click on the GitHub repo you want to deploy from.
+
+5. Scroll to the bottom of the page and click deploy branch to start a manual deployment.
+
+6. Open the Resources tab and choose an Eco Dyno.
+
+7. Click on Open app to view your deployed project.
+
+8. The website is now live at https://sortead-7559c99c8714.herokuapp.com/
