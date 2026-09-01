@@ -32,10 +32,12 @@
             <li class=""><a href="/#menu" aria-label='Menu'>Menu</a> |</li>
             <li class=""><a href="/booking" aria-label='Book A Table'>Book A Table |</a> </li>
             {% if request.user.is_authenticated %}
-           <form  class="logout" action="{% url 'users:logout' %}" method="post">
-                {% csrf_token %}
-                <button class="logout-button" aria-label="User Logout" title="User Logout">Logout</button>
-            </form>
+            <li>
+              <form  class="logout" action="{% url 'users:logout' %}" method="post">
+                  {% csrf_token %}
+                  <button class="logout-button" aria-label="User Logout" title="User Logout">Logout</button>
+              </form>
+            </li>
             {% else %}
             <li class=""><a href="{% url 'users:register' %}" aria-label='User Registration'>Sign Up</a> |</li>
             <li class=""><a href="{% url 'users:login' %}" aria-label='User Login'>Login</a> |</li>
