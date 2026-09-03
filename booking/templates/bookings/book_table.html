@@ -26,5 +26,8 @@
   <button  type="submit" class="btn custom-button-outline d-block mx-auto Reserve-buttons">Reserve Table</button>
 </form>
 <p> If you would like to update or delete your booking please click the button below. </p>
-<button class="btn custom-button-outline d-block mx-auto Reserve-buttons" > <a href="{% url 'view_bookings' %}"> Update</a> </button>
+
+ <form  action="/booking/view_bookings" method="get">
+      <button class="btn custom-button-outline d-block mx-auto Reserve-buttons"> Update </button>
+ </form>
 {% endblock %}

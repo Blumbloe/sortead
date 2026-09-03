@@ -13,9 +13,11 @@
   </h2>
 
 <div class="text-center mb-3">
-  <button class="btn custom-button-outline d-block mx-auto"> <a href="/booking">Book Now</a> </button>
-  </div>
-
+    <form  action="/booking" method="get">
+        <button class="btn custom-button-outline d-block mx-auto"> Book a table </button>
+    </form>
+</div>
+ 
 
   {% if bookings %}
     <div class="table-responsive">

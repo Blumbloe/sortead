@@ -218,3 +218,7 @@ Click on the GitHub repo you want to deploy from.
 7. Click on Open app to view your deployed project.
 
 8. The website is now live at https://sortead-7559c99c8714.herokuapp.com/
+
+## 6. Testing
+
+To see all testing carried out see [Testing.md](/testing.md)
