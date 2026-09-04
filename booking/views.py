@@ -5,13 +5,15 @@ from django.contrib import messages
 from .models import Booking
 # Create your views here.
 
+
 def home_view(request):
-    context ={}
+    context = {}
     form = CreateBooking(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
     context['form'] = form
     return render(request, "bookings/book_table.html", context)
+
 
 @login_required(login_url="/users/login/")
 def new_booking(request):
@@ -23,14 +25,16 @@ def new_booking(request):
             newbooking.save()
             messages.success(request, "Booking successfully created")
             return redirect('new_booking')
-    else:    
+    else:
         form = CreateBooking()
     return render(request, 'bookings/book_table.html', {'form': form})
 
+
 @login_required(login_url="/users/login/")
-def view_bookings(request):   
+def view_bookings(request):
     booking = Booking.objects.filter(user=request.user)
     return render(request, 'bookings/booking_list.html', {'bookings': booking})
+
 
 @login_required(login_url="/users/login/")
 def update_booking(request, booking_id):
@@ -43,8 +47,8 @@ def update_booking(request, booking_id):
             return redirect(reverse('view_bookings'))
     else:
         form = CreateBooking(instance=booking)
-    return render(request, 'bookings/update_booking.html', {'form': form, 'booking': booking})
-
+    return render(request, 'bookings/update_booking.html',
+                  {'form': form, 'booking': booking})
 
 
 @login_required(login_url="/users/login/")
@@ -55,7 +59,9 @@ def delete_booking(request, booking_id):
         return redirect(reverse('view_bookings'))
     return render(request, 'bookings/delete_booking.html')
 
+
 @login_required(login_url="/users/login/")
 def booking_list(request):
     bookings = Booking.objects.filter(user=request.user)
-    return render(request, 'bookings/booking_list.html', {'bookings': bookings})
+    return render(request, 'bookings/booking_list.html',
+                  {'bookings': bookings})

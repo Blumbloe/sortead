@@ -158,3 +158,40 @@ The initial check in the source for the login page came up with zero errors so n
 The initial check for the css code came up with zero errors so no change was needed.
 
 ![image of css validation](/sorteadproject/static/documentation/css-validation.png)
+
+#### Python
+
+##### Project
+
+The initial check for the projects views file came up with a few errors which were solved by adding
+extra blank lines between the code and moving the indentation to the right position.
+
+![image of project views validation](/sorteadproject/static/documentation/project-views-validation.png)
+
+##### Views app
+
+The initial check for the users views file came up with many errors which were solved by adding
+extra blank lines between the code, removing whitespace in curly brackets, moving the indentation to the right position
+and adding a newline at the end of the file.
+
+![image of users views validation](/sorteadproject/static/documentation/users-views-validation.png)
+
+##### Booking app
+
+The initial check for the users views file came up with many errors which were solved by adding
+extra blank lines between the code, adding whitespace after the "=" operator, removing trailing whitespace
+and shortening lines that were too long.
+
+![image of booking views validation](/sorteadproject/static/documentation/booking-views-validation.png)
+
+The initial check for the booking admin file came up with zero errors and did not need alteration.
+
+![image of booking admin validation](/sorteadproject/static/documentation/booking-admin-validation.png)
+
+The initial check for the booking model file came up with many errors which were solved by adding
+extra blank lines between the code, adding whitespace after the comma, recifying the over 
+indentation on the validators, removing trailing whitespace, removing excess blank lines and adding
+a newline at the end of the file.
+
+![image of booking admin validation](/sorteadproject/static/documentation/booking-model-validation.png)
+

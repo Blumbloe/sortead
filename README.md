@@ -24,6 +24,7 @@ The site provides the ability to book a table, along with the ability to read ab
 - As a User I can cancel my booking so that if circumstances change the timeslot wont be wasted.
 - As a User I can book multiple guests for a meal so that the restaurant can prepare for our party appropriately.
 - As a User I can leave a review online so that I can let other potential customers know how great the food and service was.
+
 ### Target Audience
 - Site Owner
 - Potential Customer
@@ -187,6 +188,7 @@ Whilst in the process of designing and styling the website, I kept in mind the n
 - HTML
 - CSS
 - Django
+- python
 
 ### 4.2 Frameworks, Sites and Programs Used
 - Frame0 - to create the wireframes of the site
@@ -198,7 +200,7 @@ Whilst in the process of designing and styling the website, I kept in mind the n
 - Font Awesome - Used for icon implementation
 - Chrome dev tools - To test the responsiveness of the site in both desktop and mobile
 - Coolors - For colour pallete generation
-- GeeksforGeeks - For helping with Crud functionallity on my models.
+- GeeksforGeeks - For helping with crud functionallity on my models.
 
 ## 5. Deployment
 
@@ -222,3 +224,28 @@ Click on the GitHub repo you want to deploy from.
 ## 6. Testing
 
 To see all testing carried out see [Testing.md](/testing.md)
+
+## 7. Credits
+### 7.1 code used
+- [Bootstrap](https://getbootstrap.com/) - as stated previously, Bootstrap has been used to help style my code.
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) - helped me understand and build my booking model.
+
+### 7.2 Content
+- [coolors.co](https://coolors.co/) 
+- [Google fonts](https://fonts.google.com/)
+
+### 7.3 Media
+- [Font Awesome](https://fontawesome.com/)
+
+### 7.4 Testing 
+I have used the following sources to help in the process of refining and testing of this project.
+
+- [W3C](https://validator.w3.org/) validator 
+- [W3C](https://jigsaw.w3.org/css-validator/) jigsaw 
+- [CI](https://pep8ci.herokuapp.com/) validator
+
+### 7.5 Acknowledgements
+I would like to give acknowledgement to the following people who have supported me thoughout the duration of this project.
+- My Dad
+- Kevin Loughrey
+- My friends and family
